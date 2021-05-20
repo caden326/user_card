@@ -1,0 +1,88 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+height: 500px;
+width: 600xp;
+position: relative;
+display: flex;
+justify-content: center;
+align-content: center;
+}   
+
+.card{
+    background-color: whitesmoke;
+    height: 225px;
+    width: 545px;
+    outline: lightslategray solid 5px;
+    position: absolute;
+}
+
+.top-rect{
+    height: 70px;
+    width: 545px;
+    background-color: rgb(95, 93, 212);
+    position: absolute;
+    top: 0;
+}
+
+
+#map{
+    position: absolute;
+    height: 15px;
+    width: 10px;
+    top: 128px;
+    left: 24px;
+}
+
+#gear{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    top: 193px;
+    left: 24px;
+}
+
+#user{
+    border-radius: 50%;
+    /* outline: 5px white solid; */
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 45px;
+    left: 30px;
+}
+
+#jane{ 
+    position: absolute;
+    top: 70px;
+    left: 20px;
+}
+
+#list{
+    position: absolute;
+    width: 100ch;
+    top: 135px;
+    left: 25px;
+}
+
+#dumb{
+    width: 35ch;
+    top: 155px;
+    left:25px;
+    position: absolute;
+}
+
+#seatle{
+    position: absolute;
+    top: 105px;
+    left: 40px;
+}
+#edit{
+    width: 10ch;
+    position: absolute;
+    top: 190px;
+    left:45px;
+}
+
